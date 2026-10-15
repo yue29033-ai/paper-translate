@@ -1,0 +1,32 @@
+# Local runtimes and editor/system files
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.DS_Store
+.idea/
+.vscode/
+
+# Credentials and local configuration
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Papers, translations, extracted text, previews and audit output stay local
+/work/
+/outputs/
+*.pdf
+*.manifest.json
+manifest.json
+*.layout.json
+*.qa.json
+/previews/
+/translations/
+
+# Packaging output
+*.zip
+dist/
+build/
+*.egg-info/
